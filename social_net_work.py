@@ -146,7 +146,7 @@ class UserRecomendation:
                             loop_over_functionInputs = str(
                                 input("would you like to  check another person yes or No "))
                         except IndexError:
-                            print("not right noww boyyyyy")
+                            print("Member ID does not exist")
 
              def user_with_least_friends(self):
                  # Open the file "1.txt" in read mode
